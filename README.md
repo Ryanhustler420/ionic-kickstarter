@@ -29,9 +29,11 @@ npm install @capacitor/screen-orientation
 
 ### Build
 
-Remove `/android` directory if you have one
+**Update Android Studio & AGP**
 
-Close `android studio` if already opened
+Close **`Android Studio`** if already opened
+
+Remove **`/android`** directory if you have one
 
 ```bash
 ionic capacitor copy android
