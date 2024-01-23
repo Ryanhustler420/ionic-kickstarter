@@ -4,8 +4,14 @@ const config: CapacitorConfig = {
   appId: 'io.ionic.starter',
   appName: 'ionic-kickstarter',
   webDir: 'build',
+  bundledWebRuntime: false,
   server: {
     androidScheme: 'https'
+  },
+  plugins: {
+    CapacitorHttp: {
+      enabled: true,
+    }
   }
 };
 
